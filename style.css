@@ -1,0 +1,129 @@
+@media (min-width: 480px) {
+.intro{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.contact{
+position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.footer{
+    background-color: black;
+}
+.contact > ul{
+    list-style: none;
+}
+.web{
+    height: 22px;
+    width: 22px;    
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+}
+
+.icon-text h4 {
+  margin: 0; /* remove default margin */
+  font-size: 1rem; /* adjust as needed */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+}
+header > ul{
+    text-align: center;
+}
+.list{
+    display: inline;
+}
+.nav-item > a{
+    color: #3333cc;
+}
+.main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    align-items: center;
+    background-color: rgb(204, 211, 204);
+    background-image: url('images/Artboard 3.png');
+    background-size: cover;      /* لجعل الصورة تغطي كامل الخلفية */
+    background-position: center; /* لتوسيط الصورة */
+    background-repeat: no-repeat;/* حتى لا تتكرر الصورة */
+
+}
+.main > p{
+    margin-bottom: 12rem;
+    max-width: 30rem;
+}
+.main > h3{
+    margin-top: 2rem;
+}
+.main > ul > li{
+    text-align: right;
+    color: white;
+    font-weight: bold
+}
+.backages{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    background-color: rgb(204, 211, 204);
+    background-image: url('images/Artboard 4.png');
+    background-size: cover;      /* لجعل الصورة تغطي كامل الخلفية */
+    background-position: center; /* لتوسيط الصورة */
+    background-repeat: no-repeat;/* حتى لا تتكرر الصورة */
+}
+.card{
+    margin-top: 14rem;
+}
+h3{
+    width: auto ;
+    padding: 0 3rem 0 3rem;
+    color: white;
+    background-color: #3333cc;
+    text-align: center;
+}
+p{
+    height: auto;
+    width: 20em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    margin-bottom: 14rem;
+}
+.competation{
+    text-align: center;
+    color: black;
+    margin-left: 11.2rem;
+    font-weight: bold;
+}
+.backgroundImg{
+    width: 100%;
+    height: auto;
+}
+.mainImg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.sar, .contact > img{
+width: 2rem;
+height: 2rem;
+}
+
+.nav-link{
+    color: #3333cc;
+}
+
+}
