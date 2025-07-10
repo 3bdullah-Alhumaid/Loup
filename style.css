@@ -42,30 +42,37 @@ header > ul{
 .list{
     display: inline;
 }
-.nav-item > a{
+.nav-item {
     color: #3333cc;
 }
-.main{
+.main, .services{
     height: auto;
     display: flex;
     flex-direction: column;
     flex: 1 1 100%;
     align-items: center;
     background-color: rgb(204, 211, 204);
-    background-image: url('images/Artboard 3.png');
     background-size: cover;      /* لجعل الصورة تغطي كامل الخلفية */
     background-position: center; /* لتوسيط الصورة */
     background-repeat: no-repeat;/* حتى لا تتكرر الصورة */
+}
+.main{
+    background-image: url('images/Artboard 3.png');
+        padding: 0.5rem 0 2rem 0;
 
 }
-.main > p{
-    margin-bottom: 12rem;
-    max-width: 30rem;
+.services{
+    background-image: url('images/Artboard 5.png');
+    padding: 0.5rem 0 2rem 0;
 }
-.main > h3{
+.main > p, .services > p{
+    margin-bottom: 1rem;
+}
+.main > h3, .services > h3{
     margin-top: 2rem;
 }
-.main > ul > li{
+
+.main > ul > li, .services > ul > li{
     text-align: right;
     color: white;
     font-weight: bold
@@ -92,16 +99,19 @@ h3{
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
+    text-align: right;
 }
 p{
     height: auto;
-    width: 20em;
+    max-width: 30rem;
     background-color: black;
     color: white;
     text-align: center;
     font-weight: bold;
     padding: 1rem;
     margin-bottom: 14rem;
+    text-align: right;
+    text-justify: inter-word;
 }
 .competation{
     text-align: center;
