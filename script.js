@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const sections = ['main', 'services', 'backages', 'works'];
+    const sections = ['main', 'services', 'works'];
 
     $(".mainBtn, .servicesBtn, .backagesBtn, .worksBtn").click(function() {
         const section = this.className.match(/(\w+)Btn/)[1];
