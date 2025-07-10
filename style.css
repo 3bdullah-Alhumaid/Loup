@@ -127,7 +127,10 @@ height: 2rem;
     color: #3333cc;
 }
 
-
+a {
+  text-decoration: none !important;
+  color: white;
+}
 
 @media (min-width: 300px) and (max-width: 429px) {
   .navigation {
