@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgb(33, 36, 41);
+}
 .intro{
     width: 100%;
     position: relative;
@@ -142,19 +144,24 @@ a {
   color: white;
 }
 
-.bromosVid, .reelsVid{
+.bromosVid, .reelsVid, .photos-work, .voiceover{
     display: flex;
     flex: 1 1 100%;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #07100C;
     gap: 20px;
 }
+.navigation-vid .nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 @media (max-width: 900px) {
-    .bromosVid, .reelsVid {
+    .bromosVid, .reelsVid, .photos-work, .voiceover {
         flex-direction: column;
         align-items: center; /* Center iframes horizontally */
     }
-    .bromosVid iframe, .reelsVid iframe {
+    .bromosVid iframe, .reelsVid iframe, .photos-work iframe, .voiceover iframe{
         width: 100% !important; /* Make iframes take full width */
         max-width: 600px; /* Optional: limit maximum width */
         height: 300px; /* Optional: adjust height for small screens */
