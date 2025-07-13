@@ -26,7 +26,7 @@ $(document).ready(function() {
     $(".toggleButton").click(function() {
         var target = $(this).data("target");
         // Hide all sections
-        $(".bromosVid, .reelsVid").fadeOut(200).removeClass("active");
+        $(".bromosVid, .reelsVid, .photos-work, .voiceover").fadeOut(200).removeClass("active");
         // Show the selected section
         $(target).fadeIn(600).addClass("active");
         // Remove 'active' from all buttons, add to the clicked one
