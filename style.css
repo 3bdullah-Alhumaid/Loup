@@ -142,6 +142,24 @@ a {
   color: white;
 }
 
+.bromosVid, .reelsVid{
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-around;
+    background-color: #07100C;
+    gap: 20px;
+}
+@media (max-width: 900px) {
+    .bromosVid, .reelsVid {
+        flex-direction: column;
+        align-items: center; /* Center iframes horizontally */
+    }
+    .bromosVid iframe, .reelsVid iframe {
+        width: 100% !important; /* Make iframes take full width */
+        max-width: 600px; /* Optional: limit maximum width */
+        height: 300px; /* Optional: adjust height for small screens */
+    }
+}
 @media (min-width: 300px) and (max-width: 429px) {
   .navigation {
   flex: 1 1 100%;
@@ -170,5 +188,15 @@ a {
   align-items: center;
   gap: 0; 
 }
+.bromosVid, .reelsVid{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #07100C;
+    
+}
+
 }
 
